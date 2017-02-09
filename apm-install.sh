@@ -5,18 +5,20 @@ apm install \
 	editorconfig \
 	emmet \
 	expose \
+	file-icons \
 	git-time-machine \
 	highlight-selected \ 
 	language-gherkin \ 
+	linter \ 
+	linter-eslint \
+	local-history \
+	minimap \
+	minimap-highlight-selected \
+	pretty-json \ 
 	react \
 	relative-numbers \
 	run \
 	split-diff \
-	pretty-json \ 
-	pigments \ 
-	local-history \ 
-	linter \ 
-	linter-eslint \ 
-	file-icons \
-	minimap \
-	minimap-highlight-selected
+	svg-preview \
+	vim-mode \
+	pigments
