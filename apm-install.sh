@@ -6,6 +6,7 @@ apm install \
 	emmet \
 	expose \
 	file-icons \
+	git-blame \
 	git-time-machine \
 	highlight-selected \ 
 	language-gherkin \ 
