@@ -30,7 +30,9 @@ install atom &&
 install google-chrome &&
 install iterm2 &&
 install evernote &&
+install franz &&
 install slack &&
+install spectacle &&
 install spotify &&
 install alfred &&
 install docker &&
