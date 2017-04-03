@@ -1,6 +1,6 @@
 
 apm install \
-	autoclose-html \ 
+	autoclose-html \
 	autocomplete-paths \
 	editorconfig \
 	emmet \
@@ -8,14 +8,14 @@ apm install \
 	file-icons \
 	git-blame \
 	git-time-machine \
-	highlight-selected \ 
-	language-gherkin \ 
-	linter \ 
+	highlight-selected \
+	language-gherkin \
+	linter \
 	linter-eslint \
 	local-history \
 	minimap \
 	minimap-highlight-selected \
-	pretty-json \ 
+	pretty-json \
 	react \
 	relative-numbers \
 	run \

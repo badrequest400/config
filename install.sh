@@ -26,17 +26,17 @@ function install {
 
 
 # INSTALL ALL APPS
-install atom &
-install google-chrome &
-install iterm2 &
-install evernote &
-install slack &
-install spotify &
-install alfred &
-install docker &
-install flycut &
-install seil &
-install skype &
+install atom &&
+install google-chrome &&
+install iterm2 &&
+install evernote &&
+install slack &&
+install spotify &&
+install alfred &&
+install docker &&
+install flycut &&
+install seil &&
+install skype &&
 install virtualbox &&
 
 if [ ${#ERRORS[@]} -gt 0 ]; then
