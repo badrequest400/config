@@ -40,6 +40,7 @@ install flycut &&
 install seil &&
 install skype &&
 install virtualbox &&
+install karabiner-elements
 
 if [ ${#ERRORS[@]} -gt 0 ]; then
     echo "Could not install ALL apps successfully. Check installs.log for error reports."
