@@ -46,4 +46,10 @@ if [ ${#ERRORS[@]} -gt 0 ]; then
     echo "Could not install ALL apps successfully. Check installs.log for error reports."
 fi
 
+# INSTALL FUZZY FINDER
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
+
 echo "Don't forget to add Chrome extensions (vimium) and configure Seil to replace CapsLock"
