@@ -77,6 +77,7 @@ plugins=(
   npm
   nvm
   yarn
+  zsh-z
 )
 
 # Docker Plugin -> allow stacking of switches to work with completion
@@ -137,8 +138,6 @@ alias gbr="git branch"
 alias gdf="git diff"
 alias gcur="git rev-parse --abbrev-ref HEAD"
 alias rn="react-nativ"
-alias python=/usr/local/bin/python3 
-alias pip=/usr/local/bin/pip3
 alias oni=oni2
 alias vim=nvim
 alias clean_api="docker rm postgres_api && docker rm postgres_facilitators && docker volume rm dev_db_data_api && docker volume rm dev_db_data_facilitators"
@@ -154,5 +153,12 @@ listening () {
 }
 
 # LOAD UTILS
-. ~/z.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/usr/local/opt/libpq/bin:$PATH"
+
+# Created by `pipx` on 2023-11-12 00:41:31
+export PATH="$PATH:/Users/balazs/.local/bin"

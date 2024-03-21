@@ -7,3 +7,4 @@ export PATH=$HOME/gems/bin:$PATH
 source "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
+eval "$(/opt/homebrew/bin/brew shellenv)"
