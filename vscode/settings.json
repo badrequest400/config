@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "SynthWave '84",
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+  "editor.tabSize": 2,
+  "editor.minimap.renderCharacters": false,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "vscode-icons",
+  "eslint.alwaysShowStatus": true,
+  "gitlens.blame.heatmap.location": "left",
+  "workbench.settings.openDefaultKeybindings": true,
+  "files.insertFinalNewline": true,
+  "pretty-formatter.braceStyle": "expand",
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "pretty-formatter.formatting": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.autoReveal": false,
+  "editor.detectIndentation": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "search.exclude": {
+    "**/.next": true,
+    "**/node_modules": false
+  },
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+    "**/.next": true
+  },
+  "jest.enableInlineErrorMessages": true,
+  "jest.pathToJest": "yarn test",
+  "i18n-ally.localesPaths": "apps/users/public/static/locales/en/common.json",
+  "editor.cursorStyle": "line",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "svelte.ask-to-enable-ts-plugin": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "typescript": false
+  }
+}
