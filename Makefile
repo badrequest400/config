@@ -1,13 +1,10 @@
 
 install:
-	install_apps
-	copy
+    install_apps
+    copy
 
 install_apps:
-	./install.sh
-
-install_apm:
-	./apm-install.sh
+    ./install.sh
 
 copy:
 	cp ./.zshrc ~/

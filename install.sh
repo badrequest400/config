@@ -5,20 +5,19 @@
 #################################
 
 # INSTALL HOMEBREW
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" &&
+if test ! $(which brew); then
+    echo "Installing homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
-# INSTALL CASK FOR GETTING ALL APPS
-brew tap caskroom/cask &&
-brew install cask
+brew update
 
-# INSTALL oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 # INSTALL FUNCTION FOR ERROR REPORTING
 ERRORS=()
 function install {
-    brew cask install $1
+    brew install $1
     RC=$?
 
     if [ $RC -ne 0]; then
@@ -28,27 +27,32 @@ function install {
 }
 
 
-# INSTALL ALL APPS
-install atom &&
-install firefox &&
-install iterm2 &&
-install evernote &&
-install franz &&
-install slack &&
-install spectacle &&
-install spotify &&
-install docker &&
-install flycut &&
-install virtualbox &&
+APPS=(
+    visual-studio-code
+    warp
+    slack
+    spectacle
+    spotify
+    docker
+    flycut
+)
 
-if [ ${#ERRORS[@]} -gt 0 ]; then
-    echo "Could not install ALL apps successfully. Check installs.log for error reports."
-fi
+# INSTALL ALL APPS
+brew install ${APPS[@]}
+
+#if [ ${#ERRORS[@]} -gt 0 ]; then
+#    echo "Could not install ALL apps successfully. Check installs.log for error reports."
+#fi
+
 
 # INSTALL FUZZY FINDER
 brew install fzf
-
-# To install useful key bindings and fuzzy completion:
+  # To install useful key bindings and fuzzy completion:
 $(brew --prefix)/opt/fzf/install
 
-echo "Don't forget to add Chrome extensions (vimium) and configure Seil to replace CapsLock"
+
+
+# INSTALL oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo "Don't forget to remap CapsLock in System Preferences"
