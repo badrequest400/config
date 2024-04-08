@@ -77,7 +77,7 @@ plugins=(
   npm
   nvm
   yarn
-  zsh-z
+  z
 )
 
 # Docker Plugin -> allow stacking of switches to work with completion
