@@ -33,6 +33,7 @@ APPS=(
     slack
     rectangle
     spotify
+    notion
     flycut
 )
 
