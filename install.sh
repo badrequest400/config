@@ -31,9 +31,8 @@ APPS=(
     visual-studio-code
     warp
     slack
-    spectacle
+    rectangle
     spotify
-    docker
     flycut
 )
 

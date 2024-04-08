@@ -139,7 +139,6 @@ alias gdf="git diff"
 alias gcur="git rev-parse --abbrev-ref HEAD"
 alias rn="react-nativ"
 alias oni=oni2
-alias vim=nvim
 alias clean_api="docker rm postgres_api && docker rm postgres_facilitators && docker volume rm dev_db_data_api && docker volume rm dev_db_data_facilitators"
 alias sub="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias gen="touch package/graphql/src/graphql/backend/private.graphql"
