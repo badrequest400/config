@@ -16,6 +16,8 @@ vscode_install:
 vscode_copy:
 	cp ./vscode/settings.json ~/Library/Application\ Support/Code/User/
 	cp ./vscode/keybindings.json ~/Library/Application\ Support/Code/User/
+vscode_turnoff_repeating_keys:
+	./vscode/repeating_keys.sh
 
 js:
 	./toolchains/js/install.sh
