@@ -35,6 +35,7 @@ APPS=(
     spotify
     notion
     flycut
+    whatsapp
 )
 
 # INSTALL ALL APPS
