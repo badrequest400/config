@@ -3,6 +3,7 @@ setup:
 	copy
 	install_apps
 	vscode
+	osx
 	js
 
 install_apps:
@@ -21,6 +22,9 @@ vscode_turnoff_repeating_keys:
 
 js:
 	./toolchains/js/install.sh
+
+osx:
+	./osx/defaults.sh
 
 copy:
 	cp ./.zshrc ~/
