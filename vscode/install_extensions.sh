@@ -11,6 +11,7 @@ EXTENSIONS=(
     graphql.vscode-graphql
     graphql.vscode-graphql-syntax
     golang.go
+    ms-azuretools.vscode-docker
 )
 
 THEMES=(
