@@ -12,6 +12,7 @@ EXTENSIONS=(
     graphql.vscode-graphql-syntax
     golang.go
     ms-azuretools.vscode-docker
+    tamasfe.even-better-toml
 )
 
 THEMES=(
