@@ -13,6 +13,7 @@ EXTENSIONS=(
     golang.go
     ms-azuretools.vscode-docker
     tamasfe.even-better-toml
+    charliermarsh.ruff
 )
 
 THEMES=(
