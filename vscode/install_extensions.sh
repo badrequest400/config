@@ -14,6 +14,7 @@ EXTENSIONS=(
     ms-azuretools.vscode-docker
     tamasfe.even-better-toml
     charliermarsh.ruff
+    github.vscode-pull-request-github
 )
 
 THEMES=(
