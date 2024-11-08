@@ -15,6 +15,7 @@ EXTENSIONS=(
     tamasfe.even-better-toml
     charliermarsh.ruff
     github.vscode-pull-request-github
+    dbaeumer.vscode-eslint
 )
 
 THEMES=(
