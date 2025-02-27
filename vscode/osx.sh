@@ -9,3 +9,6 @@ cursor_id=$(osascript -e 'id of app "Cursor"')
 if [ -n "$cursor_id" ]; then
 defaults write "$cursor_id" ApplePressAndHoldEnabled -bool false
 fi
+
+echo "Turning off Press and Hold for Windsurf"
+defaults write com.codeium.windsurf ApplePressAndHoldEnabled -bool false
