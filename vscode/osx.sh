@@ -12,3 +12,6 @@ fi
 
 echo "Turning off Press and Hold for Windsurf"
 defaults write com.codeium.windsurf ApplePressAndHoldEnabled -bool false
+
+echo "Turning off Press and Hold for PearAI"
+defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false
